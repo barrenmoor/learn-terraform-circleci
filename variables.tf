@@ -1,3 +1,5 @@
-variable "region" {}
-variable "label" {}
-variable "app" {}
+variable "region" {
+  description = "AWS region"
+  type        = string
+  default     = "ap-south-1"
+}
